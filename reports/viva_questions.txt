@@ -1,0 +1,32 @@
+AEGISIDS - VIVA QUESTIONS
+
+1. What is an Intrusion Detection System (IDS)?
+2. What is the difference between signature-based and anomaly-based IDS?
+3. Why did you choose Deep Learning over traditional Machine Learning (like Random Forest) for this project?
+4. Explain the architecture of your Deep Neural Network (DNN).
+5. What activation functions did you use and why?
+6. What is the purpose of Batch Normalization in your model?
+7. How does Dropout help prevent overfitting?
+8. Explain the Adam optimizer.
+9. What dataset did you use and why (NSL-KDD)?
+10. How did you handle categorical variables in the dataset?
+11. Why is feature scaling necessary before passing data to a neural network?
+12. What is an Autoencoder, and how are you using it for anomaly detection?
+13. How did you calculate the threshold for the anomaly detector?
+14. Explain the concept of "Reconstruction Error".
+15. What is the "Black Box" problem in Deep Learning?
+16. How does Explainable AI (XAI) solve the black box problem in your project?
+17. What are SHAP values and how do they work?
+18. How did you merge the DNN classification with the Autoencoder anomaly score?
+19. Explain your Threat/Risk scoring logic.
+20. How does your system reduce false positives?
+21. What are True Positives, False Positives, True Negatives, and False Negatives?
+22. Define Precision, Recall, and F1-Score. Which is more important for an IDS?
+23. Why shouldn't an IDS be optimized solely for Accuracy?
+24. Explain data leakage in Machine Learning and how you avoided it.
+25. What is the baseline comparison in your project?
+26. How does your system handle unknown/zero-day attacks?
+27. Why did you use Streamlit for the dashboard?
+28. Explain the database schema used for logging traffic and alerts.
+29. What are the limitations of your current system?
+30. What future improvements would you suggest for AegisIDS?

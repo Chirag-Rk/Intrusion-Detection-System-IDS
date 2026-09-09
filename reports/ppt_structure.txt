@@ -1,0 +1,61 @@
+AEGISIDS - PRESENTATION STRUCTURE
+
+Slide 1: Title Slide
+- AegisIDS: Adaptive and Explainable Deep Learning-Based Intrusion Detection System
+- Presenter Name / Roll No / Project Guide
+
+Slide 2: Introduction
+- Importance of Network Security
+- The Role of an Intrusion Detection System (IDS)
+
+Slide 3: Problem Statement
+- Limitations of current IDSs: Signature dependency, high false positives, black-box predictions
+
+Slide 4: Motivation
+- Need for interpretable, adaptive, and accurate systems
+
+Slide 5: Proposed System (AegisIDS)
+- Hybrid Approach: Deep Neural Network (DNN) + Autoencoder
+- Threat Scoring & XAI for Alert Prioritization
+
+Slide 6: System Architecture
+- Flow diagram: Data -> Preprocessing -> Models -> Decision Engine -> XAI -> Alerts -> Dashboard
+
+Slide 7: Dataset & Preprocessing
+- Dataset: NSL-KDD
+- Preprocessing steps: Missing value imputation, Scaling, One-Hot Encoding
+
+Slide 8: Feature Selection
+- Top features selected via Mutual Information / Tree-based importance
+
+Slide 9: DNN Classifier (Known Attacks)
+- Model architecture (Dense, Dropout, BatchNorm)
+- Binary classification of Normal vs Attack traffic
+
+Slide 10: Autoencoder (Zero-day / Anomaly Detection)
+- Learning normal traffic distribution
+- Flagging instances with high Reconstruction Error (MSE)
+
+Slide 11: Threat Scoring & False Positive Reduction
+- Combining confidence and anomaly score to generate a 0-100 score
+- Severity Mapping: LOW, MODERATE, HIGH, CRITICAL
+
+Slide 12: Explainable AI (SHAP)
+- Unboxing the "Black Box"
+- Identifying feature contributions to a specific prediction
+
+Slide 13: Dashboard and Interactive UI
+- Real-time traffic monitoring simulation
+- Alert logs and Metric visualizations
+
+Slide 14: Experimental Results
+- Comparison Table: Baseline (SVM, RF) vs AegisIDS
+- Training Loss/Accuracy curves
+- Confusion Matrix Insights
+
+Slide 15: Conclusion & Future Scope
+- Conclusion: Reduced FPs, successfully implemented zero-day detection, enhanced analyst trust via XAI.
+- Future Scope: PCAP integration, Apache Kafka streaming, Active Response mechanisms.
+
+Slide 16: Q&A
+- Thank You!

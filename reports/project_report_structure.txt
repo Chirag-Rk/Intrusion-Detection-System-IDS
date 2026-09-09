@@ -1,0 +1,43 @@
+AEGISIDS - PROJECT REPORT STRUCTURE
+
+Chapter 1: Introduction
+- Overview of Network Security
+- Need for Advanced Intrusion Detection Systems
+- Problem Statement
+- Objectives of AegisIDS
+
+Chapter 2: Literature Survey
+- History of IDS (Signature vs. Anomaly-based)
+- Machine Learning in Cybersecurity
+- Deep Learning limitations (Black Box problem)
+- XAI in Security
+
+Chapter 3: Existing System vs. Proposed System
+- Existing System Limitations (High FP, Black box, Static)
+- Proposed System (Hybrid DNN+Autoencoder, SHAP XAI, Threat Scoring)
+
+Chapter 4: System Architecture
+- Data Flow Diagram
+- Module Descriptions (Ingestion, Preprocessing, Inference, Dashboard)
+
+Chapter 5: Dataset and Preprocessing
+- NSL-KDD Description
+- Handling Missing Values, Encoding, Scaling
+- Feature Selection Results
+
+Chapter 6: Deep Learning Methodology
+- DNN Classifier Architecture
+- Autoencoder Anomaly Detection
+- Decision Fusion Logic
+
+Chapter 7: Explainable AI and Threat Scoring
+- SHAP Integration
+- Calculation of Risk/Threat Score
+
+Chapter 8: Experimental Results
+- Training Metrics (Accuracy, Loss, Validation)
+- Baseline Model Comparisons
+- False Positive Reduction Analysis
+- Anomaly Detection Thresholding
+
+Chapter 9: Conclusion and Future Work

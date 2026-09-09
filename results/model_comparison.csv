@@ -1,0 +1,6 @@
+Model,Accuracy,Precision,Recall,F1-Score,False Positive Rate (FPR),True Positives,False Positives,True Negatives,False Negatives
+Logistic Regression,0.7512,0.9172,0.6189,0.7391,0.0738,7942,717,8994,4891
+Random Forest,0.7662,0.9673,0.6099,0.7481,0.0273,7827,265,9446,5006
+SVM (Linear),0.5959,0.642,0.6557,0.6488,0.4832,8415,4692,5019,4418
+Proposed DNN,0.7874,0.926,0.6809,0.7848,0.0719,8738,698,9013,4095
+AegisIDS (DNN + Anomaly Fusion),0.8789,0.9235,0.8583,0.8897,0.0939,11015,912,8799,1818
